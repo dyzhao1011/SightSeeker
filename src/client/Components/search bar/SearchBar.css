@@ -1,0 +1,32 @@
+#input {
+  width: 200px;
+  background-color: #013b52;
+  margin: 5px;
+  height: 6px;
+}
+
+.search-input > input::placeholder {
+  color: rgb(169, 169, 169);
+}
+
+.search-input > input:valid {
+  color: white;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  background-color: #015272;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.search-bar-button > button {
+  background: #015272;
+  padding: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

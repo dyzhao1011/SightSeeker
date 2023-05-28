@@ -1,0 +1,25 @@
+.footer {
+  background-color: #015272;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  color: white;
+}
+
+.footer > h1 {
+  color: white;
+}
+.footer-about > p {
+  text-decoration: underline;
+}
+.footer > div > p {
+  cursor: pointer;
+}
+
+.footer-technology > ul > li > a {
+  color: white;
+}
+
+.footer-team > ul > li > a {
+  color: white;
+}

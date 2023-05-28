@@ -1,0 +1,36 @@
+.About {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 20px;
+}
+
+.About > div {
+  width: 100%;
+}
+
+.h1 {
+  align-items: center;
+  text-align: center;
+}
+
+.About1,
+.About2,
+.About3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.About_Info {
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.About_Info > p {
+  font-size: 18px;
+}
+
+.About > div > img {
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+}
